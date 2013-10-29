@@ -1,0 +1,89 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+
+.navbar {
+  height:60px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.navbar-inner{
+  background: linear-gradient(#FFFFD5, #FFFFD5) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: 60px;
+
+}
+.navbar .navbar-inner .container{
+  margin-top: 10px;
+}
+
+.alert {
+	margin-top: 10px;
+}
+
+#body_container .container-fluid {
+  padding-left: 0px;
+  margin: 0 0 20px 20px;
+}
+
+#sideMenu_region{
+  bottom:0;
+  left:0!important;
+  width:100%;
+
+}
+
+#sideMenu{
+  background: none repeat scroll 0 0 #F6F7F8;
+  border-right: 1px solid #C6C6C6;
+  bottom: 0;
+  box-shadow: 1px 0 2px #D6D6D6;
+  min-height: 1px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.menuWrapper{
+
+ /*   overflow-x: hidden;
+    overflow-y: auto;
+ */
+}
+
+#sideMenu ul{
+  list-style: none outside none;
+  margin: 0;
+}
+
+#sideMenu ul li{
+   background: -moz-linear-gradient(left center , #F4F4F4, #FFFFFF) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #E6E6E6;
+}
+#sideMenu .menulink{
+    color: #333333;
+    display: block;
+    padding: 5px 15px 5px 25px;
+}
+
+#bodyContainer {
+  position: relative;
+  margin:0;
+  padding: 0;
+
+}
